@@ -1,4 +1,4 @@
-➡️Aim:
+'''➡️Aim:
  //To write a Python program that accepts marks of three tests from the user and calculates the best of two test average.//
 
 ➡️Algorithm:
@@ -12,7 +12,7 @@
 •Display the best of two test average.
 •Stop the program.
 
-➡️Program:
+➡️Program:'''
  marks = []
 for i in range(3):
     m = float(input(f"Enter marks for Test {i+1}: "))
@@ -25,6 +25,6 @@ print("Best of two test average marks:", best_two_avg)
 
 
 
-➡️Result:
+#➡️Result:
 
-Thus Python program that accepts marks of three tests from the user and calculates the best of two test average implemented sucessfully.
+#Thus Python program that accepts marks of three tests from the user and calculates the best of two test average implemented sucessfully.
