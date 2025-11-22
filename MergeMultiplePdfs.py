@@ -1,4 +1,4 @@
-➡️ Aim:
+'''➡️ Aim:
 To write a Python program that merges selected pages from multiple PDFs into a new PDF.
 
 ➡️ Algorithm:
@@ -11,7 +11,7 @@ To write a Python program that merges selected pages from multiple PDFs into a n
 • Close all files.  
 • Stop the program.  
 
-➡️ Program:
+➡️ Program:'''
 import PyPDF2
 
 pdfs = ["file1.pdf", "file2.pdf"]
@@ -27,5 +27,5 @@ with open("merged.pdf", "wb") as out:
 
 print("Selected pages merged into 'merged.pdf'.")
 
-➡️ Result:
-Thus the Python program that merges selected pages from multiple PDFs into a new PDF is implemented successfully.
+'''➡️ Result:
+Thus the Python program that merges selected pages from multiple PDFs into a new PDF is implemented successfully.'''
