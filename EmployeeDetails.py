@@ -1,4 +1,4 @@
-➡️ Aim:
+'''➡️ Aim:
 To create a Python program that stores employee details and updates salary for employees in a given department.
 
 ➡️ Algorithm:
@@ -11,7 +11,7 @@ To create a Python program that stores employee details and updates salary for e
 • Display employee details.  
 • Stop the program.  
 
-➡️ Program:
+➡️ Program:'''
 class Employee:
     def __init__(self, name, eid, dept, salary):
         self.name = name
@@ -41,5 +41,5 @@ for emp in employees:
 for emp in employees:
     emp.display()
 
-➡️ Result:
-Thus the Python program that stores employee details and updates salary for a given department is implemented successfully.
+'''➡️ Result:
+Thus the Python program that stores employee details and updates salary for a given department is implemented successfully.'''
