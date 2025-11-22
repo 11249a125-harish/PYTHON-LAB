@@ -1,4 +1,4 @@
-➡️ Aim:
+'''➡️ Aim:
 To generate and display the Fibonacci sequence up to N terms using a user-defined function.
 
 ➡️ Algorithm:
@@ -10,7 +10,7 @@ To generate and display the Fibonacci sequence up to N terms using a user-define
 • Continue this until n terms are printed.  
 • Stop the program.  
 
-➡️ Program:
+➡️ Program:'''
 def fibonacci(n):
     if n <= 0:
         print("Error: N must be greater than 0.")
@@ -26,5 +26,5 @@ def fibonacci(n):
 n = int(input("Enter number of terms (N): "))
 fibonacci(n)
 
-➡️ Result:
-Thus the Python program to generate Fibonacci sequence up to N terms using a user-defined function is implemented successfully.
+'''➡️ Result:
+Thus the Python program to generate Fibonacci sequence up to N terms using a user-defined function is implemented successfully.'''
