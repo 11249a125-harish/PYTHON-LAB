@@ -1,4 +1,4 @@
-➡️ Aim:
+'''➡️ Aim:
 To develop a Python program that checks whether a given number is palindrome or not and counts the occurrence of each digit in the input number.
 
 ➡️ Algorithm:
@@ -11,7 +11,7 @@ To develop a Python program that checks whether a given number is palindrome or 
 • Display the count of each digit.  
 • Stop the program.  
 
-➡️ Program:
+➡️ Program:'''
 num = input("Enter a number: ")
 
 if num == num[::-1]:
@@ -27,5 +27,5 @@ print("Digit occurrences:")
 for k, v in count.items():
     print(f"{k}: {v}")
 
-➡️ Result:
-Thus the Python program that checks whether a given number is palindrome or not and counts the occurrences of each digit is executed successfully.
+'''➡️ Result:
+Thus the Python program that checks whether a given number is palindrome or not and counts the occurrences of each digit is executed successfully.'''
