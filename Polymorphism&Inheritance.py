@@ -1,4 +1,4 @@
-➡️ Aim:
+'''➡️ Aim:
 To write a Python program using polymorphism and inheritance to check whether an input (string or integer) is a palindrome.
 
 ➡️ Algorithm:
@@ -11,7 +11,7 @@ To write a Python program using polymorphism and inheritance to check whether an
 • Display result.  
 • Stop the program.  
 
-➡️ Program:
+➡️ Program:'''
 class CheckPalindrome:
     def is_palindrome(self, data):
         pass
@@ -38,5 +38,5 @@ if checker.is_palindrome(data):
 else:
     print("Not Palindrome")
 
-➡️ Result:
-Thus the Python program using polymorphism and inheritance to check whether a string or integer is a palindrome is executed successfully.
+'''➡️ Result:
+Thus the Python program using polymorphism and inheritance to check whether a string or integer is a palindrome is executed successfully.'''
