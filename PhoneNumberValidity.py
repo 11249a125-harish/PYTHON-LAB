@@ -1,6 +1,4 @@
-// 8. Check Phone Number //
-
-➡️ Aim:
+'''➡️ Aim:
 To write a Python program to recognize a phone number pattern (415-555-4242) both with and without using regular expressions.
 
 ➡️ Algorithm:
@@ -14,7 +12,7 @@ To write a Python program to recognize a phone number pattern (415-555-4242) bot
 • Display both results.  
 • Stop the program.  
 
-➡️ Program:
+➡️ Program:'''
 def isphonenumber(text):
     if len(text) != 12:
         return False
@@ -39,5 +37,5 @@ import re
 pattern = re.compile(r'\d{3}-\d{3}-\d{4}')
 print("With Regex:", bool(pattern.fullmatch("415-555-4242")))
 
-➡️ Result:
-Thus the Python program that checks for a phone number pattern with and without using regular expressions is implemented successfully.
+'''➡️ Result:
+Thus the Python program that checks for a phone number pattern with and without using regular expressions is implemented successfully.'''
