@@ -1,4 +1,4 @@
-➡️ Aim:
+'''➡️ Aim:
 To write a Python program using inheritance to calculate areas of triangle, circle, and rectangle.
 
 ➡️ Algorithm:
@@ -10,7 +10,7 @@ To write a Python program using inheritance to calculate areas of triangle, circ
 • Call area methods to display the area.  
 • Stop the program.  
 
-➡️ Program:
+➡️ Program:'''
 import math
 
 class Shape:
@@ -36,5 +36,5 @@ print("Triangle area:", t.area(10, 5))
 print("Circle area:", c.area(7))
 print("Rectangle area:", r.area(8, 6))
 
-➡️ Result:
-Thus the Python program using inheritance to calculate areas of triangle, circle, and rectangle is executed successfully
+'''➡️ Result:
+Thus the Python program using inheritance to calculate areas of triangle, circle, and rectangle is executed successfully'''
