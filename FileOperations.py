@@ -1,4 +1,4 @@
-➡️ Aim:
+'''➡️ Aim:
 To write a Python program to display the first N lines of a file and find the frequency of a specific word in the file.
 
 ➡️ Algorithm:
@@ -11,7 +11,7 @@ To write a Python program to display the first N lines of a file and find the fr
 • Display the frequency.  
 • Close the file and stop the program.  
 
-➡️ Program:
+➡️ Program:'''
 filename = input("Enter file name: ")
 N = int(input("Enter number of lines to display: "))
 
@@ -26,5 +26,5 @@ text = "".join(lines)
 count = text.lower().split().count(word.lower())
 print(f"Frequency of '{word}':", count)
 
-➡️ Result:
-Thus the Python program that displays the first N lines and counts the frequency of a given word in a file is executed successfully.
+'''➡️ Result:
+Thus the Python program that displays the first N lines and counts the frequency of a given word in a file is executed successfully.'''
