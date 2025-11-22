@@ -1,4 +1,4 @@
-➡️ Aim:
+'''➡️ Aim:
 To write a Python program that searches for phone numbers (+919900889977) and email addresses (sample@gmail.com) in a text file.
 
 ➡️ Algorithm:
@@ -11,7 +11,7 @@ To write a Python program that searches for phone numbers (+919900889977) and em
 • Display the found phone numbers and email addresses.  
 • Close the file and stop the program.  
 
-➡️ Program:
+➡️ Program:'''
 import re
 
 filename = input("Enter file name: ")
@@ -27,5 +27,5 @@ emails = email_pattern.findall(text)
 print("Phone Numbers Found:", phones)
 print("Email Addresses Found:", emails)
 
-➡️ Result:
-Thus the Python program that searches for phone numbers and email addresses in a text file is implemented successfully.
+'''➡️ Result:
+Thus the Python program that searches for phone numbers and email addresses in a text file is implemented successfully.'''
