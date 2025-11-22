@@ -1,4 +1,4 @@
-➡️ Aim:
+'''➡️ Aim:
 To write a Python program to implement insertion sort and merge sort algorithms using lists.
 
 ➡️ Algorithm:
@@ -13,7 +13,7 @@ To write a Python program to implement insertion sort and merge sort algorithms 
 • Display both sorted lists.
 • Stop the program.
 
-➡️ Program:
+➡️ Program:'''
 def insertion_sort(arr):
     for i in range(1, len(arr)):
         key = arr[i]
@@ -46,5 +46,5 @@ nums = [12, 11, 13, 5, 6]
 print("After Insertion Sort:", insertion_sort(nums.copy()))
 print("After Merge Sort:", merge_sort(nums.copy()))
 
-➡️ Result:
-Thus the Python program that implements insertion sort and merge sort using lists is executed successfully.
+'''➡️ Result:
+Thus the Python program that implements insertion sort and merge sort using lists is executed successfully.'''
