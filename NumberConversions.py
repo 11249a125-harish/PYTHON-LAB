@@ -1,4 +1,4 @@
-➡️ Aim:
+'''➡️ Aim:
 To develop a Python program that converts a binary number to its decimal equivalent and an octal number to its hexadecimal equivalent.
 
 ➡️ Algorithm:
@@ -9,7 +9,7 @@ To develop a Python program that converts a binary number to its decimal equival
 • Display both converted values.  
 • Stop the program.  
 
-➡️ Program:
+➡️ Program:'''
 def binary_to_decimal(b):
     return int(b, 2)
 
@@ -22,5 +22,5 @@ octal = input("Enter an octal number: ")
 print("Decimal equivalent of binary:", binary_to_decimal(binary))
 print("Hexadecimal equivalent of octal:", octal_to_hexadecimal(octal))
 
-➡️ Result:
-Thus the Python program to convert a binary number to decimal and an octal number to hexadecimal is executed successfully.
+'''➡️ Result:
+Thus the Python program to convert a binary number to decimal and an octal number to hexadecimal is executed successfully.'''
